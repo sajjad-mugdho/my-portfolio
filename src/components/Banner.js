@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 
 
 const Banner = () => {
-  return <section className='min-h-[78vh] mb-10 flex items-center'>
+  return <section className='min-h-[78vh] mb-10 flex items-center' id='home'>
     <div className="container mx-auto">
 
 
@@ -49,7 +49,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className='text-2xl mb-6 max-w-lg mx-auto lg:mx-0'>
+            className='text-2xl font-semibold mb-6 max-w-lg mx-auto lg:mx-0'>
             Build Smart, Build Secure.
           </motion.h4>
           <motion.div
@@ -58,7 +58,7 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className='flex items-center max-w-max gap-x-6 mx-auto mb-8 lg:mx-0'>
-            <button className='btn btn-lg'>Contract Me</button>
+            <button className='btn btn-lg'><a target="_blank" href="https://drive.google.com/file/d/1rNhpXfWccRfHj_ok_fBL4sRLzeg2D-ZM/view?usp=sharing">My Resume</a></button>
             <a href="#" className='text-gradient btn-link'> My Portfolio</a>
           </motion.div >
           {/* social  icons */}
@@ -67,14 +67,14 @@ const Banner = () => {
             initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className='flex text-[20px] mx-auto max-w-max gap-x-6 lg:mx-0'>
-            <a href="#">
+            className='flex text-[40px] mx-auto max-w-max gap-x-6 lg:ml-3'>
+            <a target="_blank" href="https://web.facebook.com/sajjad.mugdho/">
               <FaFacebook />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://github.com/sajjad-mugdho/">
               <FaGithub />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/sajjad-ssma/">
               <FaLinkedin />
             </a>
           </motion.div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquare, BsSkipEndFill } from 'react-icons/bs';
+import { FaAdjust, FaDashcube, FaSass } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
@@ -14,13 +15,7 @@ const Nav = () => {
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center' >
           <BiHomeAlt />
         </Link>
-        <Link to='about'
-          activeClass='active'
-          smooth={true}
-          spy={true}
-          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-          <BiUser />
-        </Link>
+
         <Link to='servcices'
           activeClass='active'
           smooth={true}
@@ -33,7 +28,7 @@ const Nav = () => {
           smooth={true}
           spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-          <BsSkipEndFill />
+          <FaDashcube />
         </Link>
         <Link to='work'
           activeClass='active'
@@ -41,6 +36,13 @@ const Nav = () => {
           spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BsClipboardData />
+        </Link>
+        <Link to='about'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          <BiUser />
         </Link>
         <Link to='contract'
           activeClass='active'

@@ -30,7 +30,7 @@ const About = () => {
           className='flex-1 h-[440px]'>
           <h2 className='h2 text-accent'>About me.</h2>
           <h3 className='h3 mb-4'>
-            I am a Freelance MERN Stack Developer with 5 years experience
+            I am a MERN Stack Developer
           </h3>
           <p className='mb-6'>
             As a passionate web developer, I am able to adapt to any kind of pressure and accept challenges. I would like to expand my skills by working for a prestigious company. In addition, I'm a BBA student but have found my true passion in programming. My ultimate goal is to become a senior developer within the next two years.

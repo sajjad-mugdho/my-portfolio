@@ -8,7 +8,7 @@ import Img3 from '../assets/portfolio-img3.png';
 const Work = () => {
   return <section className='section' id='work'>
     <div className="container mx-auto">
-      <div className='flex flex-col  lg:flex-row gap-x-5'>
+      <div className='flex flex-col lg:flex-row gap-x-5'>
         <motion.div
           variants={fadeIn('right', 0.5)}
           initial='hidden'
@@ -16,7 +16,7 @@ const Work = () => {
           viewport={{ once: false, amount: 0.7 }}
           className='flex-1 flex flex-col gap-y-8 mb-10 lg:mb-0'>
           {/* text */}
-          <div className='w-[28erm]'>
+          <div className='mb-24'>
             <h2 className=' h2 leading-tight text-accent'>My Leatest <br /> Work</h2>
             {/* <p className='max-w-sm mb-8'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora blanditiis dolore consequuntur fuga? Mollitia.
