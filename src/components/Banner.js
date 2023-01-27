@@ -22,7 +22,7 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className='text-[55px] lg:text[110px] font-bold leading-[0.8]'>
 
-            SAJJAD <span>MUGDHO</span>
+            MD SAJJAD <span>HOSSEN</span>
           </motion.h1>
           <motion.div
             variants={fadeIn('up', 0.4)}
@@ -44,20 +44,20 @@ const Banner = () => {
             ]}
               speed={50} className="text-accent" wrapper='span' repeat={Infinity} />
           </motion.div>
-          <motion.p
+          <motion.h4
             variants={fadeIn('up', 0.5)}
             initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className='mb-8 max-w-lg mx-auto lg:mx-0'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias fugiat  Similique.
-          </motion.p>
+            className='text-2xl mb-6 max-w-lg mx-auto lg:mx-0'>
+            Build Smart, Build Secure.
+          </motion.h4>
           <motion.div
             variants={fadeIn('up', 0.6)}
             initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className='flex items-center max-w-max gap-x-6 mx-auto mb-12 lg:mx-0'>
+            className='flex items-center max-w-max gap-x-6 mx-auto mb-8 lg:mx-0'>
             <button className='btn btn-lg'>Contract Me</button>
             <a href="#" className='text-gradient btn-link'> My Portfolio</a>
           </motion.div >

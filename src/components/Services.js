@@ -8,12 +8,6 @@ const Services = () => {
 
   const services = [
     {
-      name: "UX/UI Design",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati, sint.Suscipit recusandae aut veritatis,",
-      link: "Learn More"
-
-    },
-    {
       name: "MERN Stack Developmet",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati, sint.Suscipit recusandae aut veritatis,",
       link: "Learn More"

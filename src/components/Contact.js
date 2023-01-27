@@ -26,7 +26,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className='flex-1 flex flex-col border rounded-2xl gap-y-6 pb-24 p-6 items-start' action="">
+          className='flex-1 flex flex-col border rounded-2xl gap-y-5 pb-20 p-6 items-start' action="">
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
             placeholder='Your Name' type="text" name="" id="" />
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
