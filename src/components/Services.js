@@ -3,25 +3,26 @@ import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import { Link } from 'react-scroll';
 
 const Services = () => {
 
   const services = [
     {
       name: "MERN Stack Developmet",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati, sint.Suscipit recusandae aut veritatis,",
+      description: "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. ... Express and Node make up the middle (application) tier.",
       link: "Learn More"
 
     },
     {
       name: "Frontend Development",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati, sint.Suscipit recusandae aut veritatis,",
+      description: "Front-end development is the process of building components that interact with users. Examples are the user interface, buttons, user-entered data, websites, and user experience (UX) features",
       link: "Learn More"
 
     },
     {
       name: "React Development",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Obcaecati, sint.Suscipit recusandae aut veritatis,",
+      description: "React is a front-end JavaScript library. React is capable of making API calls, which deal with the data. React cannot process the database or the data source itself.",
       link: "Learn More"
 
     },
@@ -39,9 +40,9 @@ const Services = () => {
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0 '>
           <h2 className='h2 text-accent mb-6'>What I Do</h2>
           <h3 className='h3 max-w-[455px] mb-16'>
-            I am a Freelance MERN Stack Developer with 5 years experience
+            I am a Freelance MERN Stack Developer | Frontend Developer
           </h3>
-          <button className='btn btn-sm '>See My Work</button>
+          <button className='btn btn-sm'><Link to='work'>See My Work</Link></button>
         </motion.div>
         {/* services */}
         <motion.div

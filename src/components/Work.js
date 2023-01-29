@@ -25,7 +25,7 @@ const Work = () => {
             <button className='btn btn-sm'>View All Projects</button>
           </div>
           {/* image */}
-          <div className=' group relative mt-5 overflow-hidden w-[28rem]  border-2 border-white/50 rounded-xl'>
+          <div className=' group relative mt-5 overflow-hidden w-[24rem] lg:w-[28rem]  border-2 border-white/50 rounded-xl'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
@@ -52,7 +52,7 @@ const Work = () => {
           initial='hidden'
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }} className='flex-1 flex flex-col justify-center gap-y-8'>
-          <div className=' group relative overflow-hidden w-[26rem] border-2 border-white/50 rounded-xl'>
+          <div className=' group relative overflow-hidden  w-[24rem] lg:w-[26rem] border-2 border-white/50 rounded-xl'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
@@ -60,21 +60,21 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>
-                UI/UX Design
+                EDUxx MERN PROJECT With FIREBASE
               </span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
               <span className='text-xl  flex gap-2 text-white'>
-                <a target='_blank' className='hover:text-blue-500' href="https://doctors-portal-client-b826a.web.app/"> Live Link</a>
-                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctor-porta-client">Client Side</a>
-                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctors-portal-server">Server Side</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://eduxx-assignment.firebaseapp.com/">Live Link</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/learning-platdorm-eduxx">Client Side</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/learning-platdorm-eduxx-server">Server Side</a>
               </span>
             </div>
 
           </div>
           <div className="flex-1">
-            <div className=' group relative overflow-hidden w-[26rem] border-2 border-white/50 rounded-xl'>
+            <div className=' group relative overflow-hidden w-[24rem] lg:w-[26rem] border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -82,15 +82,15 @@ const Work = () => {
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>
-                  UI/UX Design
+                  GooBike MERN CURD PROJECT
                 </span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-xl  flex gap-2 text-white'>
-                  <a target='_blank' className='hover:text-blue-500' href="https://doctors-portal-client-b826a.web.app/"> Live Link</a>
-                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctor-porta-client">Client Side</a>
-                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctors-portal-server">Server Side</a>
+                  <a target='_blank' className='hover:text-blue-500' href="https://goobike-b125c.web.app/"> Live Link</a>
+                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/goobike-resell-bike-client">Client Side</a>
+                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/gooBike-resell-bike-server">Server Side</a>
                 </span>
               </div>
 
