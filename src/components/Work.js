@@ -4,10 +4,11 @@ import { fadeIn } from '../variants';
 import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
+import { FaLink } from 'react-icons/fa';
 
 const Work = () => {
   return <section className='section' id='work'>
-    <div className="container mx-auto">
+    <div className="container mx-auto mr-10">
       <div className='flex flex-col lg:flex-row gap-x-5'>
         <motion.div
           variants={fadeIn('right', 0.5)}
@@ -24,7 +25,7 @@ const Work = () => {
             <button className='btn btn-sm'>View All Projects</button>
           </div>
           {/* image */}
-          <div className=' group relative overflow-hidden w-[28rem] border-2 border-white/50 rounded-xl'>
+          <div className=' group relative mt-5 overflow-hidden w-[28rem]  border-2 border-white/50 rounded-xl'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
@@ -32,12 +33,16 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>
-                UI/UX Design
+                Doctors Portal MERN Stack
               </span>
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project</span>
+              <span className='text-xl  flex gap-2 text-white'>
+                <a target='_blank' className='hover:text-blue-500' href="https://doctors-portal-client-b826a.web.app/"> Live Link</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctor-porta-client">Client Side</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctors-portal-server">Server Side</a>
+              </span>
             </div>
 
           </div>
@@ -46,8 +51,8 @@ const Work = () => {
           variants={fadeIn('left', 0.5)}
           initial='hidden'
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }} className='flex-1 flex flex-col gap-y-8'>
-          <div className=' group relative overflow-hidden w-[28rem] border-2 border-white/50 rounded-xl'>
+          viewport={{ once: false, amount: 0.7 }} className='flex-1 flex flex-col justify-center gap-y-8'>
+          <div className=' group relative overflow-hidden w-[26rem] border-2 border-white/50 rounded-xl'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
@@ -60,12 +65,16 @@ const Work = () => {
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Project</span>
+              <span className='text-xl  flex gap-2 text-white'>
+                <a target='_blank' className='hover:text-blue-500' href="https://doctors-portal-client-b826a.web.app/"> Live Link</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctor-porta-client">Client Side</a>
+                <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctors-portal-server">Server Side</a>
+              </span>
             </div>
 
           </div>
           <div className="flex-1">
-            <div className=' group relative overflow-hidden w-[28rem] border-2 border-white/50 rounded-xl'>
+            <div className=' group relative overflow-hidden w-[26rem] border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -78,7 +87,11 @@ const Work = () => {
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project</span>
+                <span className='text-xl  flex gap-2 text-white'>
+                  <a target='_blank' className='hover:text-blue-500' href="https://doctors-portal-client-b826a.web.app/"> Live Link</a>
+                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctor-porta-client">Client Side</a>
+                  <a target='_blank' className='hover:text-blue-500' href="https://github.com/sajjad-mugdho/doctors-portal-server">Server Side</a>
+                </span>
               </div>
 
             </div>

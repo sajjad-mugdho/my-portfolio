@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../assets/avatar.svg';
+import image from '../assets/avater.png';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
